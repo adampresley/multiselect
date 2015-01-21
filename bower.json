@@ -1,0 +1,23 @@
+{
+  "name": "multiselect",
+  "main": "multiselect.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/adampresley/multiselect",
+  "authors": [
+    "Adam Presley <adam@adampresley.com>"
+  ],
+  "description": "Simple multiselect widget. No jQuery required!",
+  "keywords": [
+    "select",
+    "multiselect",
+    "widget"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
