@@ -1,7 +1,7 @@
 {
   "name": "simple-multiselect",
   "main": "multiselect.js",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/adampresley/multiselect",
   "authors": [
     "Adam Presley <adam@adampresley.com>"
