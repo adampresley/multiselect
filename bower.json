@@ -1,5 +1,5 @@
 {
-  "name": "multiselect",
+  "name": "simple-multiselect",
   "main": "multiselect.js",
   "version": "0.0.1",
   "homepage": "https://github.com/adampresley/multiselect",
