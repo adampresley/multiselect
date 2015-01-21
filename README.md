@@ -39,9 +39,9 @@ Once it is included place a *DIV* somewhere. Then using a little bit of JavaScri
 	});
 
 	document.getElementById("getSelected").addEventListener("click", function() {
-		console.log(obj.getSelected());
-		console.log(obj.getSelectedIndexes());
-		console.log(obj.getSelectedValues());
+		console.log(foodSelector.getSelected());
+		console.log(foodSelector.getSelectedIndexes());
+		console.log(foodSelector.getSelectedValues());
 	});
 </script>
 ```
