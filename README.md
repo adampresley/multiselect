@@ -46,6 +46,30 @@ Once it is included place a *DIV* somewhere. Then using a little bit of JavaScri
 </script>
 ```
 
+## Events
+
+Multiselect supports listening for custom events.
+
+### Item Click
+
+When an item is clicked you can be alerted. To do this add an **onItemClick** handler like the example below. The event handler is provided a single argument of the item that was clicked.
+
+```javascript
+var foodSelector = window.multiselect.render({
+	elementId: "food",
+	data: [
+		{ "value": 1, "text": "Greek" },
+		{ "value": 2, "text": "Thai" },
+		{ "value": 3, "text": "American", "selected": true },
+		{ "value": 4, "text": "Mexican" }
+	],
+	onItemClick: function(el) {
+		console.log("%o was clicked", el);
+	}
+});
+
+```
+
 ### License
 
 The MIT License (MIT)
