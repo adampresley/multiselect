@@ -148,6 +148,7 @@
 			outerDiv.classList.add("multiselect-outer-div");
 			outerDiv.style.width = _config.width;
 			outerDiv.style.height = _config.height;
+			outerDiv.style.overflow = "auto";
 
 			return outerDiv;
 		};
